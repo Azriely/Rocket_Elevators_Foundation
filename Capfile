@@ -38,7 +38,7 @@ require 'capistrano/passenger'
 require 'capistrano/rbenv'
 
 set :rbenv_type, :user
-set :rbenv_ruby, '3.0.3'
+set :rbenv_ruby, '2.6.6'
 require "capistrano/puma"
 install_plugin Capistrano::Puma
 install_plugin Capistrano::Puma::Nginx
