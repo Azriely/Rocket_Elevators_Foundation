@@ -28,8 +28,6 @@ gem 'addressy'
 # gem to convert addresses into lat/long
 gem 'geocoder'
 
-gem 'dropbox_api'
-
 # Bonus
 gem 'invisible_captcha'
 ## ----------------- ##
