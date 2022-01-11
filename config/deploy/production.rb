@@ -10,10 +10,10 @@ app = ENV['APP']
 if app.nil? or app.empty?
   app = "Rocket_Elevators_Foundation" 
 end
-set :application, Rocket_Elevators_Foundation
+set :application, app
 set :rails_env, "development"
 set :bundle_without, "production"
-set :deploy_to, "/home/deploy/apps/#{app}"
+set :deploy_to, "/home/deploy/Rocket_Elevators_Foundation/#{app}"
 set :linked_dirs, %w{tmp/pids tmp/sockets log}
 set :linked_files, %w{config/application.yml config/database.yml }
 
