@@ -33,6 +33,7 @@ gem 'invisible_captcha'
 
 gem 'ed25519', '~> 1.2', '>= 1.2.4'
 gem 'bcrypt_pbkdf', '~> 1.1'
+gem 'newrelic_rpm'
 ## ----------------- ##
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
