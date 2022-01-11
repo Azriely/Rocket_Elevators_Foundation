@@ -6,30 +6,30 @@
 server "147.182.135.232", user: "deploy", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-# app = ENV['APP']
-# if app.nil? or app.empty?
-#   app = "Rocket_Elevators_Foundation" 
-# end
-# set :application, app
-# set :rails_env, "development"
-# set :bundle_without, "production"
-# set :deploy_to, "/home/deploy/#{app}"
-# set :linked_dirs, %w{tmp/pids tmp/sockets log}
-# set :linked_files, %w{config/application.yml config/database.yml }
+app = ENV['APP']
+if app.nil? or app.empty?
+  app = "Rocket_Elevators_Foundation" 
+end
+set :application, app
+set :rails_env, "development"
+set :bundle_without, "production"
+set :deploy_to, "/home/deploy/#{app}"
+set :linked_dirs, %w{tmp/pids tmp/sockets log}
+set :linked_files, %w{config/application.yml config/database.yml }
 
 
 
-# # role-based syntax
-# # ==================
+# role-based syntax
+# ==================
 
-# # Defines a role with one or multiple servers. The primary server in each
-# # group is considered to be the first unless any hosts have the primary
-# # property set. Specify the username and a domain or IP for the server.
-# # Don't use `:all`, it's a meta role.
+# Defines a role with one or multiple servers. The primary server in each
+# group is considered to be the first unless any hosts have the primary
+# property set. Specify the username and a domain or IP for the server.
+# Don't use `:all`, it's a meta role.
 
-# role :app, %w{deploy@147.182.135.232}
-# role :web, %w{deploy@147.182.135.232}
-# role :db,  %w{deploy@147.182.135.232}
+role :app, %w{deploy@147.182.135.232}
+role :web, %w{deploy@147.182.135.232}
+role :db,  %w{deploy@147.182.135.232}
 
 
 
