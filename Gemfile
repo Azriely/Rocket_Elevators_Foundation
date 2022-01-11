@@ -90,7 +90,7 @@ group :development do
   gem 'capistrano-passenger', '~> 0.2.0'
   gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
   gem 'rvm1-capistrano3', require: false
-  #gem 'capistrano3-puma'
+  gem 'capistrano3-puma'
 end
 
 group :test do
