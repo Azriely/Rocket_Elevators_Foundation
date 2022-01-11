@@ -10,7 +10,7 @@ app = ENV['APP']
 if app.nil? or app.empty?
   app = "Rocket_Elevators_Foundation" 
 end
-set :application, app
+set :application, Rocket_Elevators_Foundation
 set :rails_env, "development"
 set :bundle_without, "production"
 set :deploy_to, "/home/deploy/apps/#{app}"
