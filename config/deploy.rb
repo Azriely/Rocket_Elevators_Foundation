@@ -4,7 +4,7 @@ lock "~> 3.16.0"
 before 'deploy', 'rvm1:install:ruby'
 set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
 set :application, "Rocket_Elevators_Foundation"
-set :repo_url, "git://github.com:Azriely/Rocket_Elevators_Foundation.git"
+set :repo_url, "git://github.com/Azriely/Rocket_Elevators_Foundation.git"
 set :branch, 'master'
 
 # Optionally, you can symlink your database.yml and/or secrets.yml file from the shared directory during deploy
