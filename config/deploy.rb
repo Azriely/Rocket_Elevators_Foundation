@@ -6,6 +6,7 @@ set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
 set :application, "Rocket_Elevators_Foundation"
 set :repo_url, "git://github.com/Azriely/Rocket_Elevators_Foundation.git"
 set :branch, 'master'
+set :rvm_type , :system
 
 # Optionally, you can symlink your database.yml and/or secrets.yml file from the shared directory during deploy
 # This is useful if you don't want to use ENV variables
