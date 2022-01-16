@@ -3,11 +3,7 @@
 Live Website Link: https://rocketelevators.store/
 
 ## Project Description
-This is the completed Foundations project for Rocket elevators. Included is a custom Ruby on Rails web application. (Please see links to custom API's (GraphQL bonus objectives comeplete for this week))
-
-#### Instructional Video
-This video gives an overview of this weeks specific requirements that have been added to the project.
-Link: <em>https://youtu.be/GwItoYtCmFQ</em>
+This is the completed Foundations project for Rocket elevators. Included is a custom Ruby on Rails web application.
 
 ### Back Office Admin Logins
 Nicolas Genest | CEO | nicolas.genest@codeboxx.biz | password: password
